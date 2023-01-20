@@ -22,10 +22,33 @@ body{
     background: #333333;
     color: white;
     border: none;
-    padding: 18px 20px;
+    padding: 18px 24px;
 }
 .text-area{
     margin-left: 40px;
     font-family: 'Space Mono', monospace;
 
 }
+@media screen and (max-width: 480px) { 
+    .section-1{
+        width: 100%;
+    } 
+    .main-section{
+        flex-direction: column;
+    }
+    .heading{
+        font-size: 40px;
+    }
+    .text-area{
+        margin-left: 0px;
+    }
+}
+@media (min-width: 480px)and (max-width:992px) {
+    
+    .section-1{
+        width: 100%;
+    } 
+    .heading{
+        font-size: 40px;
+    }
+ }

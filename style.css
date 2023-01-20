@@ -1,0 +1,31 @@
+.title{
+    font-family: 'Inconsolata', monospace;
+}
+.main-section{
+    display: flex;
+}
+.section-1{
+    width: 60%;
+}
+
+.main-section img{
+    width: 100%;
+}
+.heading{
+    font-size: 60px;
+}
+body{
+    margin: 50px;
+}
+.btn{
+    margin-top: 30px;
+    background: #333333;
+    color: white;
+    border: none;
+    padding: 18px 20px;
+}
+.text-area{
+    margin-left: 40px;
+    font-family: 'Space Mono', monospace;
+
+}
